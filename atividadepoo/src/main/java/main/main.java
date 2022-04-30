@@ -30,7 +30,7 @@ public class main {
         // Adicionar
         Remetente remadc = new Remetente(0);
         
-        /*remadc.setRemetente("Eduardo");
+        remadc.setRemetente("Eduardo");
         remadc.setCpfcnpj("123.456.789-10");
         remadc.setCep("02468-642");
         remadc.setLogradouro("Avenida Campos");
@@ -64,7 +64,7 @@ public class main {
         remadc.setEstado("AP");
         remadc.setTelefone("(96)98142-5060");
         remadc.setEmail("moedas@NumisCoin.com");
-        remadc.adicionar();*/
+        remadc.adicionar();
         
         // Listar
         ArrayList<Remetente> remetentes = Remetente.listar();
